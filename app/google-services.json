@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "777715681502",
+    "firebase_url": "https://man-auth.firebaseio.com",
+    "project_id": "man-auth",
+    "storage_bucket": "man-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777715681502:android:8c3cd9429822d482",
+        "android_client_info": {
+          "package_name": "com.machari.firebasesso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777715681502-ifosm0dnm3j2ic9v6l0u0qhpd2oelsqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.machari.firebasesso",
+            "certificate_hash": "ab5d6d25ef7fe03a3294970573fd6800222002e0"
+          }
+        },
+        {
+          "client_id": "777715681502-ndbaak39p2bi5s9ddsek8siv52v2duk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgw3wjuQbMOTPwLAuNE7vCkTwoTVnSoSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777715681502-ndbaak39p2bi5s9ddsek8siv52v2duk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
