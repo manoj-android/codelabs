@@ -47,7 +47,9 @@ class LoginActivity : AppCompatActivity() {
                         .createSignInIntentBuilder()
                         .setAvailableProviders(providers)
                         .build(),
-                RC_SIGN_IN);
+                RC_SIGN_IN)
+
+        throw  NullPointerException("test crash")
 
     }
 
@@ -100,6 +102,7 @@ class LoginActivity : AppCompatActivity() {
                 val user = FirebaseAuth.getInstance().getCurrentUser()
                 Toast.makeText(this, "user :$user : Success", Toast.LENGTH_SHORT).show()
                 showProgress(false)
+                startActivity(Intent(this,CoordinatorLayoutActivity::class.java))
 
             } else {
                 // Sign in failed. If response is null the user canceled the
