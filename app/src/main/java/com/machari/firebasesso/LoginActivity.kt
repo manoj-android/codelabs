@@ -48,9 +48,6 @@ class LoginActivity : AppCompatActivity() {
                         .setAvailableProviders(providers)
                         .build(),
                 RC_SIGN_IN)
-
-        throw  NullPointerException("test crash")
-
     }
 
     /**
